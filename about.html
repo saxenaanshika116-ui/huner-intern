@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunar Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Hunar <span>Academy</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="register.html">Registration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Forge Your Ambition</h1>
+            <p>Learn in-demand technical skills from industry experts and shape your future today.</p>
+            <a href="register.html" class="btn">Explore Courses</a>
+        </div>
+    </section>
+
+    <section class="courses-section">
+        <h2 class="section-title">Our Featured Courses</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <h3>Web Development</h3>
+                <p>Master HTML, CSS, JavaScript, and modern backend frameworks to build stunning websites.</p>
+                <a href="register.html" class="course-link">Enroll Now →</a>
+            </div>
+            <div class="course-card">
+                <h3>Data Science</h3>
+                <p>Learn Python, SQL, and Machine Learning to analyze data and build predictive models.</p>
+                <a href="register.html" class="course-link">Enroll Now →</a>
+            </div>
+            <div class="course-card">
+                <h3>UI/UX Design</h3>
+                <p>Understand user psychology and design beautiful, user-friendly digital products.</p>
+                <a href="register.html" class="course-link">Enroll Now →</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="page-content">
+        <div class="content-container">
+            <h2>About Us</h2>
+            <p>Welcome to Hunar Academy. We are dedicated to providing high-quality, practical, and hands-on web development and technical training to students worldwide.</p>
+            <p>Our mission is simple: **Forge your ambition**. We bridge the gap between academic theory and industry requirements, preparing our students for real-world development and design challenges.</p>
+            <h3>Why Choose Us?</h3>
+            <ul>
+                <li>Project-based learning with real industrial applications.</li>
+                <li>Comprehensive courses designed by industry experts.</li>
+                <li>Interactive community forums and continuous feedback support.</li>
+            </ul>
+        </div>
+    </section>
+
+     <section class="form-section">
+        <div class="form-container">
+            <h2>Register for a Course</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="course">Select Course</label>
+                    <select id="course" required>
+                        <option value="">-- Choose a Course --</option>
+                        <option value="webdev">Web Development</option>
+                        <option value="datascience">Data Science</option>
+                        <option value="uiux">UI/UX Design</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-block">Submit Registration</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="c-name">Name</label>
+                    <input type="text" id="c-name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="c-email">Email</label>
+                    <input type="email" id="c-email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="c-message">Message</label>
+                    <textarea id="c-message" rows="5" placeholder="Type your message here..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Hunar Academy. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
